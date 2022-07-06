@@ -37,7 +37,7 @@ def main() -> None:
                 action = event_handler.dispatch(event)
 
                 if action is None:
-                    continue
+                    con
 
                 if isinstance(action, MovementAction):
                     player_x += action.dx
